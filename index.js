@@ -13,7 +13,7 @@ var tmpDir = tempfile(".video-testdata");
 fs.mkdirSync(tmpDir);
 process.on("exit", function() {
     rimraf.sync(tmpDir);
-    console.log(tmpDir + " deleted!");
+    console.log("Temporary dir " + tmpDir + " deleted!");
 });
 
 // data-dir of this module
