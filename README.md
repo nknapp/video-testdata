@@ -3,7 +3,7 @@ to different formats.
 
 ## Usage
 
-Syntax: `require("video-testdata")("<filename>",["<innerFile>"], callback(err,file)`
+Syntax: `require("video-testdata")("<filename>",["<innerFile>"], callback(err,file))`
 
 The callback-parameter `file` contains the path to the requested file (see below).
 If the file is a tar-file, it is automatically extracted and `file` will point to
