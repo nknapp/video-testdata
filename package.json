@@ -1,7 +1,7 @@
 {
   "name": "video-testdata",
   "description": "Some video-files for use in test-cases",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Nils Knappmeier <npm@knappi.org> (http://www.knappi.org)",
   "keywords": [
     "videofiles mts mp4 test"
