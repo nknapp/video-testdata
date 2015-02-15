@@ -1,0 +1,18 @@
+{
+  "name": "video-testdata",
+  "description": "Some video-files for use in test-cases",
+  "version": "1.0.0",
+  "author": "Nils Knappmeier <npm@knappi.org> (http://www.knappi.org)",
+  "keywords": [
+    "videofiles mts mp4 test"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nknapp/video-testdata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nknapp/video-testdata/issues"
+  },
+  "homepage": "https://github.com/nknapp/video-testdata"
+}
