@@ -13,25 +13,25 @@ this file within the extracted tar-file.
 
 
 ```js
-require("video-testdata")("<filename>",function(err, file) {
+require("video-testdata")("2-video-unstreamable.mp4",function(err, file) {
     // do something
 });
 
 // ... or, for tar-files ...
 
-require("video-testdata")("<tar-filename>","<inside-file>",function(err, file) {
+require("video-testdata")("panasonic-lumix-dmc-zx3.tar","PRIVATE/AVCHD/BDMV/STREAM/00000.MTS",function(err, file) {
     // do something
 });
 
 // ... or,
 
-require("video-testdata")("<tar-filename>",function(err, directory) {
+require("video-testdata")("panasonic-lumix-dmc-zx3.tar",function(err, directory) {
     // do something
 });
 
 
 // If you are not using a tar-file, you can also do
-var file = require.resolve("video-testdata/data/<filename>");
+var file = require.resolve("video-testdata/data/2-video-unstreamable.mp4");
 ```
 
 ## Files
