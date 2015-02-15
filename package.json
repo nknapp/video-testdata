@@ -6,6 +6,7 @@
   "keywords": [
     "videofiles mts mp4 test"
   ],
+  "main": "index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/nknapp/video-testdata/issues"
   },
-  "homepage": "https://github.com/nknapp/video-testdata"
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "homepage": "https://github.com/nknapp/video-testdata",
+  "dependencies": {
+    "event-stream": "^3.2.2",
+    "tar": "^1.0.3",
+    "tempfile": "^1.1.0"
+  }
 }
