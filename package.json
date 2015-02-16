@@ -1,11 +1,8 @@
 {
   "name": "video-testdata",
   "description": "Some video-files for use in test-cases",
-  "version": "1.1.0",
+  "version": "1.0.1",
   "author": "Nils Knappmeier <npm@knappi.org> (http://www.knappi.org)",
-  "keywords": [
-    "videofiles mts mp4 test"
-  ],
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -18,10 +15,5 @@
   "scripts": {
     "test": "node tests.js"
   },
-  "homepage": "https://github.com/nknapp/video-testdata",
-  "dependencies": {
-    "event-stream": "^3.2.2",
-    "tar": "^1.0.3",
-    "tempfile": "^1.1.0"
-  }
+  "homepage": "https://github.com/nknapp/video-testdata"
 }
